@@ -54,5 +54,6 @@
 
 module Douban
   autoload :Authorize, 'douban/authorize'
+  autoload :People, 'douban/people'
 end
 require 'douban/version'
